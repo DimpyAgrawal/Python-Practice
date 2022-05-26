@@ -1,0 +1,5 @@
+a={}
+if a:
+    print("dictionary is not empty")      
+else:
+    print("dictionary is empty")
