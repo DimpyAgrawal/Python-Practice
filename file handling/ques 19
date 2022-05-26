@@ -1,0 +1,6 @@
+try:
+    print(n)
+except NameError:
+    print("varaible n is not defined.")
+except:
+    print("Something Wrong.")
