@@ -1,0 +1,16 @@
+try:
+    n=list(map(int,input().split()))
+except ValueError:
+    print("Invalid for lateral for int() with base 10.")
+except ZeroDivisionError:
+    print("ZeroDivisionError.")
+except IndentationError:
+    print("Indent error.")
+except TypeError:
+    print("Invalid type.")
+except IOError:
+    print("There is an Input & Output failure.")
+except Exception:
+    print("Something Wronge.")
+else:
+    print(n)
