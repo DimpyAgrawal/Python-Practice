@@ -1,0 +1,8 @@
+a={}
+size=int(input("enter size of dictionary"))
+for i in range(0,size):
+    x=input("enter key")
+    y=input("enter value")
+    a[x]=y
+ for i in a:                    
+    print(i,":",a[i])
