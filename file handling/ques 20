@@ -1,0 +1,14 @@
+try:
+    a=int(input("Enter a number."))
+    b=int(input("Enter second number."))
+    c=a/b
+except ZeroDivisionError:
+    print("ZeroDivisionError")
+except ValueError:
+    print("Invalid literal for int() with base 10")
+except Exception:
+     print("Something Wronge.") 
+else:
+    print(c) 
+finally:
+    print("Done.")
