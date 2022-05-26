@@ -1,0 +1,16 @@
+try:
+    a=int(input())
+    b=int(input())
+    c=(a/b)*(b+a)
+except ArithmeticError:
+    print("Error occurs in numeric calculation.")
+except ValueError:
+    print("There is worng value in specified data type.")
+except ZeroDivisionError:
+    print("ZeroDivisionError.")
+except EOFError:
+    print("Program is still being execuated.")
+except:
+    print("Something Wrong.")
+else:
+    print(c)
